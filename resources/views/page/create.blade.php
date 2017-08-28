@@ -79,7 +79,7 @@
                 <div class="form-group{{ $errors->has('creator') ? ' has-error' : '' }}">
                     <label for="module_url" class="col-sm-2 control-label">创建者</label>
                     <div class="col-sm-10">
-                        <input type="text" value="{{old('creator')}}" class="form-control" id="creator" name="creator" autocomplete="on" placeholder="模块环境URL" >
+                        <input type="text" value="{{old('creator')}}" class="form-control" id="creator" name="creator" autocomplete="on" placeholder="创建者" >
                          @if ($errors->has('creator'))
                             <span class="help-block">
                                 <strong>{{ $errors->first('creator') }}</strong>
@@ -102,13 +102,13 @@
                         <button type="button" class="btn btn-default btn-info" id="upload">上传</button>
                     </div>
                 </div>
-                <div class="form-group{{ $errors->has('screenshot') ? ' has-error' : '' }}">
+                <div class="form-group{{ $errors->has('shuticon') ? ' has-error' : '' }}">
                     <label for="grey_url" class="col-sm-2 control-label">页面预览图片</label>
                     <div class="col-sm-10">
-                        <input type="text" value="{{old('screenshot')}}" class="form-control" id="screenshot" name="screenshot" autocomplete="on" placeholder="模块环境URL" required>
-                         @if ($errors->has('screenshot'))
+                        <input type="text" value="{{old('screenshot')}}" class="form-control" id="screenshot" name="shuticon" autocomplete="on" placeholder="页面预览图片" required>
+                         @if ($errors->has('shuticon'))
                             <span class="help-block">
-                                <strong>{{ $errors->first('screenshot') }}</strong>
+                                <strong>{{ $errors->first('shuticon') }}</strong>
                             </span>
                         @endif
                     </div>
