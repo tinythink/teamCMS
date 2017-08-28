@@ -34,3 +34,5 @@ Route::group(['namespace' => 'Admin'], function () {
     Route::any('link/{platform}', 'DashboardController@linkPlatform');
 });
 
+
+Route::get('/openlist', 'Api\OpenController@index');
