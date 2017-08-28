@@ -84,7 +84,7 @@
 
                 <div class="links">
                     <a href="http://stip.omwteam.com">文档平台</a>
-                    <a href="http://omwteam.com">博客</a>
+                    <a href="http://www.omwteam.com">博客</a>
                     <a href="http://open.omwteam.com">开源作品</a>
                     <a href="https://omwteam.github.io/codeGuide/">团队代码规范</a>
                     <a href="https://github.com/omwteam">GitHub</a>
